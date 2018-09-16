@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+    <script src="https://use.fontawesome.com/325c14e92e.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<nav class="navbar">
+    <i class="fa fa-bars sidenav-trigger" data-target="slide-out"></i>
+    <div class="nav-wrapper container">
+        <img class="brand-logo" src="logo.png">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>    
+                <div class="center row">
+                    <div class="col s12 " >
+                        <div class="row" id="topbarsearch">
+                            <div class="input-field col s6 s12 red-text">
+                                <i class="red-text material-icons prefix"></i>
+                                <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete red-text" >
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+            </li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+    </div>
+</nav>
+<div id="nav-mobile" class="sub-nav">
+    <ul class="container">
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Mobiles</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Tablets</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Laptops</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>TVs</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Electronics</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Appliances</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Personal</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Accesories</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul> 
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>Deals</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+        <li><a class='dropdown-trigger' href='#' data-target='dropdown1'>News</a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#">Dropdown Material</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="parallax-container">
+    <div class="parallax"><img class="cover-image" src="images/cover.jpg">
+        <p class="cover-headline">Welcome to <span class="color-blue">Smartprix</span></p>
+    </div>
+</div>
+<div class="row container three-cards">
+    <div class="col m4 s12">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/phone.jpg">
+            </div>
+            <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Mobiles<i class="fa fa-ellipsis-v right"></i></span>
+            <p><a href="#">See More</a></p>
+            </div>
+            <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Mobiles<i class="fa fa-times right"></i></span>
+            <p>Some Information</p>
+            </div>
+        </div>
+    </div>
+    <div class="col m4 s12">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/ipad.jpg">
+            </div>
+            <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tablets<i class="fa fa-ellipsis-v right"></i></span>
+            <p><a href="#">See More</a></p>
+            </div>
+            <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Tablets<i class="fa fa-times right"></i></span>
+            <p>Some Information</p>
+            </div>
+        </div>
+    </div>
+    <div class="col m4 s12">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/laptop.jpg">
+            </div>
+            <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Laptops<i class="fa fa-ellipsis-v right"></i></span>
+            <p><a href="#">See More</a></p>
+            </div>
+            <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Laptops<i class="fa fa-times right"></i></span>
+            <p>Some Information</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container row">
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content">
+                <p><i class="fa fa-line-chart"></i>Trending</p>
+            </div>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#test4">Apple</a></li>
+                    <li class="tab"><a class="active" href="#test5">Google</a></li>
+                    <li class="tab"><a href="#test6">Oneplus</a></li>
+                </ul>
+            </div>
+            <div class="card-content blue lighten-4">
+                <div id="test4">
+                    <img src="images/iphone-xr.jpg" alt="" class="circle responsive-img left">
+                    The company on Wednesday launched a trio of phones -- the iPhone XR, the iPhone XS and the iPhone XS Max --
+                     in its most important product event of the year. But regardless of which iPhone you choose, you'll end up paying more than ever.
+                      The starting price for the iPhone XR, which uses cheaper parts like an aluminum body and LCD display, is $749. That's up $50 from
+                       last year's $699 for the iPhone 8, itself a bump from 2016. 
+                </div>
+                <div id="test5">
+                        <img src="images/pixel-3.jpg" alt="" class="circle responsive-img left">
+                        For the past couple of days, the rumours for Google’s Pixel 3 have taken a new turn. We have been subjected to professional unboxing videos of leaked Pixel 3 XL pre-production units since the last few months. We even took it for granted that Google’s 2018 flagship will sport an ugly ‘notched design’ with a dual front camera and a stereo speaker setup. However, a couple of small leaks now suggest otherwise and we have come across more evidence to believe it.
+                </div>
+                <div id="test6">
+                    <img src="images/oneplus.jpg" alt="" class="circle responsive-img left">
+                    The OnePlus 6 is one of the best Android flagship phones with a headphone jack, but its eventual successor — expected to be called the OnePlus 6T — won’t have one, according to OnePlus’ co-founder Carl Pei. In an interview with TechRadar, Pei said the decision was justified. “We found 59% of our community already owned wireless headphones earlier this year - and that was before we launched our Bullets Wireless headphones,” he said.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container row">
+    <div class="col s12">
+        <div class="carousel z-depth-1">
+            <div class="card-content">
+                <p><i class="fa fa-mobile"></i>Mobile Phones</p>
+            </div>
+            <a class="carousel-item" href="#one!"><img src="images/d-oppo.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="images/d-oppo.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/d-oppo.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="images/d-oppo.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="images/d-oppo.jpg"></a>
+        </div>
+    </div>
+</div>
+<div class="container row">
+    <div class="col s12">
+        <div class="carousel z-depth-1">
+            <div class="card-content">
+                <p><i class="fa fa-tablet"></i>Tablets</p>
+            </div>
+            <a class="carousel-item" href="#one!"><img src="images/d-tablet.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="images/d-tablet.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/d-tablet.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="images/d-tablet.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="images/d-tablet.jpg"></a>
+        </div>
+    </div>
+</div>
+<div class="container row">
+    <div class="col s12">
+        <div class="carousel z-depth-1">
+            <div class="card-content">
+                <p><i class="fa fa-laptop"></i>Laptops</p>
+            </div>
+            <a class="carousel-item" href="#one!"><img src="images/d-laptop.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="images/d-laptop.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/d-laptop.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="images/d-laptop.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="images/d-laptop.jpg"></a>
+        </div>
+    </div>
+</div>
+<div class="container row">
+    <div class="col m4 s12">
+        <ul class="collapsible">
+            <div class="card-content">
+                <p><i class="fa fa-tags"></i>Recent Comparison</p>
+            </div>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">stay_primary_portrait</i>Nokia 6.1 Vs Nokia 6.1 Plus</div>
+                <div class="collapsible-body"><span>Some comparison related text.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">stay_primary_portrait</i>OnePlus 6 Vs Samsung Galaxy S9</div>
+                <div class="collapsible-body"><span>Some comparison related text.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">stay_primary_portrait</i>Galaxy S9 Plus vs Samsung Note 9</div>
+                <div class="collapsible-body"><span>Some comparison related text.</span></div>
+            </li>
+        </ul>
+    </div>
+    <div class="col m4 s12">
+        <ul class="collapsible">
+            <div class="card-content">
+                <p><i class="fa fa-tags"></i>Top Comparisons</p>
+            </div>
+            <li>
+                    <div class="collapsible-header"><i class="material-icons">stay_primary_portrait</i>Xiaomi Redmi 6 Vs Xiaomi Note 5 Pro</div>
+                    <div class="collapsible-body"><span>Some comparison related text.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">stay_primary_portrait</i>Viva V11 Pro Vs OPPO F9 Pro</div>
+                <div class="collapsible-body"><span>Some comparison related text.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">stay_primary_portrait</i>Xiaomi Mi A2 Vs Xiaomi Note 5 Pro</div>
+                <div class="collapsible-body"><span>Some comparison related text.</span></div>
+            </li>
+        </ul>
+    </div>
+    <div class="col m4 s12">
+        <div class="advertisments z-depth-1">
+            advertisments
+        </div>
+    </div>
+</div>
+<ul id="slide-out" class="sidenav">
+    <li><h5 class="left-headline">All Categories</h5></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-mobile leftnav-icons fa-fw"></i>Mobile Phones</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-tablet leftnav-icons fa-fw"></i>Tablets</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-laptop leftnav-icons fa-fw"></i>Laptops</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-camera leftnav-icons fa-fw"></i>Cameras</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-tv leftnav-icons fa-fw"></i>TV's</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-expand leftnav-icons fa-fw"></i>Large Appliances</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-clock-o leftnav-icons fa-fw"></i>Smart Watches</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-archive leftnav-icons fa-fw"></i>Personal Appliances</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-caret-square-o-right  leftnav-icons fa-fw"></i>Mobile Accesories</a></li>
+    <li><a class="waves-effect" href="#"><i class="fa fa-book leftnav-icons fa-fw"></i>Books</a></li>
+</ul>
+<footer class="page-footer">
+<div class="container">
+    <div class="row">
+    <div class="col l6 s12">
+        <h5 class="white-text">Lets be friends?</h5>
+        <p class="grey-text text-lighten-4"><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i><i class="fa fa-rss"></i></p>
+    </div>
+    <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">About</h5>
+        <ul>
+        <li><a class="grey-text text-lighten-3" href="#">About Us</a></li>
+        <li><a class="grey-text text-lighten-3" href="#">Contact Us</a></li>
+        <li><a class="grey-text text-lighten-3" href="#">Help</a></li>
+        <li><a class="grey-text text-lighten-3" href="#">Latest News</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+<div class="footer-copyright">
+    <div class="container">
+    © 2018 - Smartpix  |  Copyright Reserved
+    <a class="grey-text text-lighten-4 right terms" href="#">Terms and considitions</a>
+    <a class="grey-text text-lighten-4 right" href="#">Privacy Policy</a>
+    </div>
+</div>
+</footer>
+      
+</body>
+</html>
